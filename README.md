@@ -1,2 +1,2 @@
 # AliceInFlowerLand
-Mock Flower Shop Website Project
+IN PROGRESS - Mock Flower Shop Website Project - Not Published
