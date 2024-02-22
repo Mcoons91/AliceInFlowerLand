@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alice in Flowerland</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!--Homepage Logo...Top and centered-->
+  <div class="containerLogo" class="d-flex justify-content-center"><img class="logo" alt="logo" src="./Images/AliceFlowerlandOP.png"></div>
+
+<!--Song clip and spotify link-->
+  <div class="song"><iframe style="border-radius:12px;" src="https://open.spotify.com/embed/track/4p7EYvJ6yWEjZDZuguSti7?utm_source=generator" width="100%" height="120" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+  
+  <div>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-md style="navbar navbar-light" style="background-color: lightslategray;">
+      <a class="navbar-brand" style="color: #3e1550;" href="#">Occasions</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active" style="color: #3e1550">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Valentine's Day</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Flowers & Plants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Weddings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" action="search.php" method="post">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <!--Carousel and Images-->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Images/HomeAliceSlide1.jpg" class="d-block w-100" alt="Alice slide One">
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/Valentine's Sale.png" class="d-block w-100" alt="Alice slide Two">
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/weddinggraphic.png" class="d-block w-100" alt="Alice side Three">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Flower Product Gallery, plus top feature image -
+  CSS Grid Columns-->
+   
+  <!--Row 1-->
+  <div class="flowercontainer text-center">
+    <div class="row">
+      <div class="col-sm-12"><h3>Featured Collection</h3><img class="feature-img" src="./Images/We_Deliver.png"></div></div>
+  <!--Row 2-->
+    <div class="row">
+      <div class="col-sm-4"><h4>Roses</h4>
+        <img class="img-flowers" src="./Images/paint_roses_collage.png"><p>View our elegant selection of roses here.</p></div>
+      <div class="col-sm-4"><h4>Daffodils</h4>
+      <img class="img-flowers" src="./Images/daffodil_collage.png"><p>Our Daffodils are the best in town.</p></div>
+      <div class="col-sm-4"><h4>Daisies</h4>
+        <img class="img-flowers" src="./Images/daisy_collage.png"><p>Everybody loves daisies!</p></div>
+    </div>
+  </div>
+</div>
+
+  <div></div>
+  <div></div>
+
+<!--Footer section-->
+
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Services</h3>
+                  <ul>
+                      <li><a href="#">Web design</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Hosting</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3>Company Name</h3>
+                  <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+          <p class="copyright">Company Name © 2018</p>
+      </div>
+  </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
